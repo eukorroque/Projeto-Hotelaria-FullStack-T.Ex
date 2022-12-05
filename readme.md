@@ -1,6 +1,6 @@
-# Projeto FullStack Hotel  - Escola T.Ex
+# Projeto FullStack Hotel  - Escola T
 
-Bem vindo!
+Boas vindas!
 Convidamos você a participar em time, do desenvolvimento de um sistema de hotelaria onde as reservas são feitas online. Por se tratar de uma demanda FullStack, o projeto envolve o front-end e o back-end. 
 
 ## Usuários
