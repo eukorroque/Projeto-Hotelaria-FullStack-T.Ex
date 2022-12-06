@@ -31,7 +31,7 @@ O desenvolvimento back-end consiste em :
 
 - nome, email, telefone, cpf, senha (criptografada), nivel
 
-- a lógica de cadastro deve ser reutilizada tanto para o cadastro de usuário público quanto para o usuário adminstrativo
+- A lógica de cadastro deve ser reutilizada tanto para o cadastro de usuário público quanto para o usuário adminstrativo
 
 ### Relatórios (Área Administrativa - Acesso restrito)
 
@@ -71,7 +71,6 @@ O desenvolvimento back-end consiste em :
 - Criar uma sequência aleatória de 8 caracteres entre letras e números que deve ser registrada no banco de dados como o código de um cumpom de desconto.
 - Quando inserida em um campo da tela Reservas (a ser implementado pelo time) aplica um desconto de 10% sobre o valor total da reserva.
 - O código só pode ser utilizado uma única vez.
-- 
 
 ### Problemática de Back-End:
 
@@ -89,12 +88,49 @@ O desenvolvimento back-end consiste em :
 - Rotas legíveis
 - Utilização correta de git/gitHub
 
+## Importante
+
+Neste projeto serão disponibilizadas pela T.EX as telas com os templates em HTML/CSS que consomem a API desenvolvida.
+
 ## Tecnologias
 
 - Javascript
+- MySQL
+- Mongo DB
 - Node JS
 - Express JS
-- Mongo DB
-- Opcionalmente incluir uso de Javascript OOP e TypeScript
+
+## Cursos T.EX
+
+Para que o (a) participante obtenha um bom desempenho neste projeto é necessário ter assistido a lista de cursos a seguir ou ter conhecimento equivalentes:
+
+### Fundamentos
+
+- Linux
+- VsCode
+- Git/GitHub
+- Agile
+- Lógica de Programação
+
+
+### Back-End
+
+- Javascript POO
+- MySQL
+- MongoDB
+- Node JS
+
+### Recomendados
+A lista a seguir compõe cursos não obrigatório, porém recomendados para reforço dos conceitos abordados: 
+
+
+#### Back-End
+
+- Typescript  
+- SSO
+- React consumindo uma API
+- API
+- JSON
+
 
 

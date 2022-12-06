@@ -209,11 +209,11 @@ O desenvolvimento back-end consiste em :
 ## Tecnologias
 
 - Javascript
-- Node JS
-- Express JS
 - MySQL
 - Mongo DB
-- Opcionalmente incluir uso de Javascript OOP e TypeScript
+- Node JS
+- Express JS
+
 
 ## Cursos T.EX
 
