@@ -3,24 +3,32 @@
 Boas vindas!
 
 
-Convidamos você a participar em time, do desenvolvimento de um sistema de hotelaria onde as reservas são feitas online. Por se tratar de uma demanda FullStack, o projeto envolve o front-end e o back-end. 
-
-## Usuários
-O sistema contém dois tipos de usuários:
-
- - O usuário público que efetua reservas das acomodações.
- - O usuário administrativo que monitora o checkin, checkout e a disponibilidade dos apartamentos. 
+Convidamos você a participar em time, do desenvolvimento de um sistema de hotelaria onde as reservas são feitas online. O projeto envolve o front-end. 
 
 
-## Features da aplicação
+## Tipo de Usuário
+
+O sistema contempla dois tipos de usuário:
+
+ - Usuário público que efetua reservas das acomodações.
+ - Usuário administrativo que monitora o checkin, checkout e a disponibilidade dos apartamentos. 
+
+
+# Features da aplicação Front-End
+
+Alguns componentes de tela não contemplam interações no fluxo de navegação, visto que suas funcionalidades seriam implementadas numa estratégia fullStack, que não é alvo deste projeto, como:
+ 
+- Formulário Login
+- Formulário Contato
+- Botões 'Cadastre-se', 'Sair' do topo de todas as páginas.
+
+
 
 ### Tela Login
-
 
 - Acesso mediante usuário cadastrado
 - Link 'esqueceu sua senha' com reset de senha. O teste de email pode ser feito com MailHog.
 - Notificação de senha forte (Uppercase/Lowercase/Números/Caracteres Especiais)
-- Opcional: envio de código de verficação.
 
 
 ### Tela Home
@@ -71,23 +79,13 @@ O sistema contém dois tipos de usuários:
   - Email: input type email
   - Telefone: input type text 
   - Assunto: select(assunto [Cancelamento de Reserva,Ouvidoria,Departamento Financeiro], textarea (comentários)  
-  - O teste de email pode ser feito com MailHog.
 
-### Telas adicionais
-
-- Tela Cadastro (formulário com os campos nome, email, telefone, cpf, senha e confirmação de senha). Desafio: Implementar a lógica de cadastro que possa ser reutilizada tanto para o cadastro de usuário público quanto para o usuário adminstrativo
-
-- Tela Relatórios (Área Administrativa). Criar telas que listem usuários por categoria (público/admin), no caso dos usuários públicos (clientes),listar também suas respectivas reservas.
-
-- Tela Acomodações (Área administrativa). Criar uma tela para listar as acomodações existentes e seu status (disponível/ocupada), no caso do status 'ocupada' exibir período de ocupação e usuário público associado a reserva.
 
 
 ### Rotas e Dados Persistentes
 
-- A aplicação é um sistema web, as telas são acessadas por rotas definidas no aplicação front-end.
-- Os dados que a interface exibe são resultados do consumo da API desenvolvida no back-end que interage com o Banco de Dados MySql em conjunto com Node.js.
-- Parte da persistência deve ser armazaneda temporariamente em `localStorage` otimizando o carregamento de informações como no caso da tela Reservas após o primeiro acesso.
-- Para o uso do Banco de Dados NoSql, crie documentos em MongoDb para alimentar a lista de Cards da tela 'Acomodações'
+- A aplicação é um sistema web, as telas são acessadas por rotas definidas na aplicação front-end.
+- Alguns dados deve ser armazenads em `localStorage` otimizando o carregamento de informações como no caso da tela Reservas.
   
 
 
@@ -122,15 +120,14 @@ O sistema contém dois tipos de usuários:
 - Observe que no layout da tela Reservas, o resumo não apresenta o campo 'Valor Total', você terá que inserir esta informação que é essencial para a completude da interface.
 - Fique atento a outros detalhes e adicione itens que considere essencial, mas que não estejam descritos, desde que não saia do escopo do proposta.
 
- - Reservas só podem ser confirmadas se usuário autenticado.
- - Para se autenticar, usuário precisa se cadastrar
+- Reservas só podem ser confirmadas se usuário autenticado.
+- Para se autenticar, usuário precisa se cadastrar
 - Precifique os serviços adicionais a seu critério
 
 - Isole blocos header, nav, main e footer
 - Todos os elementos da interface devem ser componentes
-Escolha a imagem do logo
-Escolha as imagens das acomodações (Pense em 9 opções)
-
+- Escolha a imagem do logo
+- Escolha as imagens das acomodações (Pense em 9 opções)
 
 
 ## Considere no seu desenvolvimento
@@ -140,11 +137,42 @@ Escolha as imagens das acomodações (Pense em 9 opções)
 - Componentes reativos
 - Utilização correta de git/gitHub
 
+
 ## Tecnologias
 
-- Javascript (boas práticas incluir uso de Javascript OOP e TypeScript)
-- Framework JS: React ou Vue
-- Para o CSS, não utilize BootStrap. As alternativas são escrever o CSS nativo ou usar o Sass (scss)
+- Javascript
+- Framework reativo: Vue JS
+- Para o CSS, não utilize BootStrap. Escreva o CSS nativo ou use o Sass (scss)
 - Para o Javascript, sempre que possível use Vanilla
 - Não utilize Jquery
+  
+## Cursos T.EX
 
+Para que o (a) participante obtenha um bom desempenho neste projeto é necessário ter assistido a lista de cursos a seguir ou ter conhecimento equivalentes:
+
+### Fundamentos
+
+- Linux
+- VsCode
+- Git/GitHub
+- Agile
+- Lógica de Programação
+
+### Front-End
+
+- Ambiente WEB
+- HTML
+- CSS3
+- Javascript
+- Vue JS
+
+### Recomendados
+
+A lista a seguir compõe cursos não obrigatório, porém recomendados para reforço dos conceitos abordados: 
+
+#### Front-End
+
+- UX
+- SASS
+- Introdução ao React
+- Chrome Dev Tools
