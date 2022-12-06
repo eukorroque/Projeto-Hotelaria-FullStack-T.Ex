@@ -187,11 +187,32 @@ O desenvolvimento back-end consiste em :
 - listar serviços opcionais
   - nome, descrição, valor
 
-
-
-
 - Os dados que a interface exibe são resultados do consumo da API desenvolvida no back-end que interage com o Banco de Dados MySql em conjunto com Node.js.
 - Somente na momento da confirmação da reserva, os dados são registrados no Banco de Dados MySql.
 
 
-- Boas práticas incluir uso de Javascript OOP e TypeScript
+### Problemática de Back-End:
+
+- Criar uma API que atenda aos requisitos do sistema
+- Os wireframes apresentam as telas para abstração sobre os dados renderizados da API
+- Para cada tela há uma quantidade especifica de dados, o sistema deve prover a capacidade de entrega dos dados para exibição em tela
+- Será analisada a reutilização inteligente do código e resolução da problemática apresentada no back-end
+
+
+## Considere no seu desenvolvimento
+
+- Código reutilizável e seguindo boas práticas
+- Use o conceito de microserviços
+- Verifique sempres os componentes interconectados
+- Rotas legíveis
+- Utilização correta de git/gitHub
+
+## Tecnologias
+
+- Javascript
+- Node JS
+- Express JS
+- Mongo DB
+- Opcionalmente incluir uso de Javascript OOP e TypeScript
+
+
