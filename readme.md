@@ -12,7 +12,7 @@ O sistema contempla dois tipos de usuário:
  - Usuário administrativo que monitora o checkin, checkout e a disponibilidade dos apartamentos. 
 
 
-## Features da aplicação
+# Features da aplicação Front-End
 
 O desenvolvimento front-end consiste em :
 
@@ -150,6 +150,42 @@ O desenvolvimento front-end consiste em :
 - Para o Javascript, sempre que possível use Vanilla
 - Não utilize Jquery
 
+
+# Features da aplicação Back-End
+
+O desenvolvimento back-end consiste em :
+
+- Criar os diagramas de classe para o bando de Dados Mysql
+- Gerar as tabelas com suas devidas chaves e índices
+- Criar views e procedures
+- Usar o Node JS para efetuar leitura e escrita (GET/PUT/DELETE/UPDATE)
+- Gerar rotas para os endpoints da aplicação
+- Criar uma API REST (JSON) para consumo de dados estruturados   
+- Criar uma pequena base noSQL para alimentar uma lista com as 'acomodações mais populares'
+
+
+
+### Cadastro (público/admin)
+
+- nome, email, telefone, cpf, senha (criptografada), nivel
+
+- a lógica de cadastro deve ser reutilizada tanto para o cadastro de usuário público quanto para o usuário adminstrativo
+
+### Relatórios (Área Administrativa - Acesso restrito)
+
+- listar usuários por categoria (público/admin)
+- listar reservas
+    - data da reserva, nome do hospede, checkin, checkout, quantidade de pessoas, serviços adicionais, desconto, código do cumpom
+- listar acomodações
+    - nome, tipo, descrição, status (disponível/ocupada)
+
+### Listagem pública
+
+- listar acomodações
+  - nome, tipo, descrição, diaria
+
+- listar serviços opcionais
+  - nome, descrição, valor
 
 
 
