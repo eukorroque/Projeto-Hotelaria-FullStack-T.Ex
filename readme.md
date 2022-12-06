@@ -175,7 +175,7 @@ O desenvolvimento back-end consiste em :
 
 - listar usuários por categoria (público/admin)
 - listar reservas
-    - data da reserva, nome do hospede, checkin, checkout, quantidade de pessoas, serviços adicionais, desconto, código do cumpom
+    - data da reserva, nome do hospede, checkin, checkout, quantidade de pessoas, serviços adicionais, desconto, código do cupom
 - listar acomodações
     - nome, tipo, descrição, status (disponível/ocupada)
 
