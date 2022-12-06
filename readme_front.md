@@ -1,4 +1,4 @@
-# Projeto FullStack Hotel  - Escola T.Ex
+# Projeto Front-End Hotel  - Escola T.Ex
 
 Boas vindas!
 
