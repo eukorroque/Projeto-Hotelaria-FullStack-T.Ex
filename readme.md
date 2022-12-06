@@ -91,7 +91,7 @@ O desenvolvimento front-end consiste em :
 - Tela Acomodações (Área administrativa). Criar uma tela para listar as acomodações existentes e seu status (disponível/ocupada), no caso do status 'ocupada' exibir período de ocupação e usuário público associado a reserva.
 
 
-- A aplicação é um sistema web, as telas são acessadas por rotas definidas na aplicação front-end (desenvolvido em Vue ou React)
+- A aplicação é um sistema web, as telas são acessadas por rotas definidas na aplicação front-end (desenvolvido em Vue JS)
 - Parte da persistência deve ser armazenada temporariamente em `localStorage` otimizando o carregamento de informações como no caso da tela Reservas após o primeiro acesso.
 - Para o uso do Banco de Dados NoSql, crie documentos em MongoDb para alimentar a lista de Cards da tela 'Acomodações'
   
@@ -145,7 +145,7 @@ O desenvolvimento front-end consiste em :
 ## Tecnologias
 
 - Javascript
-- Framework reativo: React ou Vue
+- Framework reativo: Vue JS
 - Para o CSS, não utilize BootStrap. Escreva o CSS nativo ou use o Sass (scss)
 - Para o Javascript, sempre que possível use Vanilla
 - Não utilize Jquery
@@ -211,7 +211,51 @@ O desenvolvimento back-end consiste em :
 - Javascript
 - Node JS
 - Express JS
+- MySQL
 - Mongo DB
 - Opcionalmente incluir uso de Javascript OOP e TypeScript
 
+## Cursos T.EX
 
+Para que o (a) participante obtenha um bom desempenho neste projeto é necessário ter assistido a lista de cursos a seguir ou ter conhecimento equivalentes:
+
+### Fundamentos
+
+- Linux
+- VsCode
+- Git/GitHub
+- Agile
+- Lógica de Programação
+
+### Front-End
+
+- Ambiente WEB
+- HTML
+- CSS3
+- Javascript
+- Vue JS
+
+### Back-End
+
+- Javascript POO
+- MySQL
+- MongoDB
+- Node JS
+
+### Recomendados
+A lista a seguir compõe cursos não obrigatório, porém recomendados para reforço dos conceitos abordados: 
+
+#### Front-End
+
+- UX
+- SASS
+- Introdução ao React
+- Chrome Dev Tools
+
+#### Back-End
+
+- Typescript  
+- SSO
+- React consumindo uma API
+- API
+- JSON
