@@ -5,27 +5,17 @@ Boas vindas!
 
 Convidamos você a participar em time, do desenvolvimento de um sistema de hotelaria onde as reservas são feitas online. Por se tratar de uma demanda FullStack, o projeto envolve o front-end e o back-end. 
 
-## Tipo de Usuário
+## Usuários
+O sistema contém dois tipos de usuários:
 
-O sistema contempla dois tipos de usuário:
-
- - Usuário público que efetua reservas das acomodações.
- - Usuário administrativo que monitora o checkin, checkout e a disponibilidade dos apartamentos. 
+ - O usuário público que efetua reservas das acomodações.
+ - O usuário administrativo que monitora o checkin, checkout e a disponibilidade dos apartamentos. 
 
 
 ## Features da aplicação
 
-O desenvolvimento front-end consiste em :
-
-  - Criar os documentos HTML em blocos que possam ser convertidos em componentes
-  - Aplicar o CSS para diagramar, organizar e tematizar as telas da interface
-  - Criar funcionalidades usando a linguagem Javascript
-  - Utilizar um pré-procesador CSS
-  - Persistir os dados em `localStorage`
-  - Aplicar um framework reativo para lidar com os blocos de conteúdo, gerar as rotas do front-end e renderizar os dados do back-end
-  
-
 ### Tela Login
+
 
 - Acesso mediante usuário cadastrado
 - Link 'esqueceu sua senha' com reset de senha. O teste de email pode ser feito com MailHog.
@@ -92,8 +82,11 @@ O desenvolvimento front-end consiste em :
 - Tela Acomodações (Área administrativa). Criar uma tela para listar as acomodações existentes e seu status (disponível/ocupada), no caso do status 'ocupada' exibir período de ocupação e usuário público associado a reserva.
 
 
-- A aplicação é um sistema web, as telas são acessadas por rotas definidas na aplicação front-end (desenvolvido em Vue ou React)
-- Parte da persistência deve ser armazenada temporariamente em `localStorage` otimizando o carregamento de informações como no caso da tela Reservas após o primeiro acesso.
+### Rotas e Dados Persistentes
+
+- A aplicação é um sistema web, as telas são acessadas por rotas definidas no aplicação front-end.
+- Os dados que a interface exibe são resultados do consumo da API desenvolvida no back-end que interage com o Banco de Dados MySql em conjunto com Node.js.
+- Parte da persistência deve ser armazaneda temporariamente em `localStorage` otimizando o carregamento de informações como no caso da tela Reservas após o primeiro acesso.
 - Para o uso do Banco de Dados NoSql, crie documentos em MongoDb para alimentar a lista de Cards da tela 'Acomodações'
   
 
@@ -104,7 +97,7 @@ O desenvolvimento front-end consiste em :
 - A aplicação deverá ser responsiva.
 - O ajuste, a diagramação e  a organização visual do o conteúdo é livre, desdes que todos blocos sugeridos no wireframes sejam incluídos.
 - Será analisada a reutilização inteligente do código e resolução da problemática apresentada no front.
-- Os cálculos do valor total da reserva devem ser computados no front e as escolhas armazenadas em `localStorage`. 
+- Os cálculos do valor total da reserva devem ser computados no front e as escolhas armazenadas em `localStorage`. Somente na momento da confirmação os dados são registrados no Banco de Dados MySql.
 
 - Total da reserva igual a:
   - valor da diaria multiplicado pelo quantidade de noites multiplicado pela quantidade de pessoas (limte de 4 pessoas)
@@ -128,11 +121,15 @@ O desenvolvimento front-end consiste em :
 
 - Observe que no layout da tela Reservas, o resumo não apresenta o campo 'Valor Total', você terá que inserir esta informação que é essencial para a completude da interface.
 - Fique atento a outros detalhes e adicione itens que considere essencial, mas que não estejam descritos, desde que não saia do escopo do proposta.
+
+ - Reservas só podem ser confirmadas se usuário autenticado.
+ - Para se autenticar, usuário precisa se cadastrar
 - Precifique os serviços adicionais a seu critério
+
 - Isole blocos header, nav, main e footer
 - Todos os elementos da interface devem ser componentes
-- Escolha a imagem do logo
-- Escolha imagens para as acomodações (Pense em 9 opções)
+Escolha a imagem do logo
+Escolha as imagens das acomodações (Pense em 9 opções)
 
 
 
@@ -145,18 +142,9 @@ O desenvolvimento front-end consiste em :
 
 ## Tecnologias
 
-- Javascript
-- Framework reativo: React ou Vue
-- Para o CSS, não utilize BootStrap. Escreva o CSS nativo ou use o Sass (scss)
+- Javascript (boas práticas incluir uso de Javascript OOP e TypeScript)
+- Framework JS: React ou Vue
+- Para o CSS, não utilize BootStrap. As alternativas são escrever o CSS nativo ou usar o Sass (scss)
 - Para o Javascript, sempre que possível use Vanilla
 - Não utilize Jquery
 
-
-
-
-
-- Os dados que a interface exibe são resultados do consumo da API desenvolvida no back-end que interage com o Banco de Dados MySql em conjunto com Node.js.
-- Somente na momento da confirmação da reserva, os dados são registrados no Banco de Dados MySql.
-
-
-- Boas práticas incluir uso de Javascript OOP e TypeScript
