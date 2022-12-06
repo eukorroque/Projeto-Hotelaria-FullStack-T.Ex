@@ -155,7 +155,7 @@ O desenvolvimento front-end consiste em :
 
 O desenvolvimento back-end consiste em :
 
-- Criar os diagramas de classe para o bando de Dados Mysql
+- Criar os diagramas de classe para o banco de Dados Mysql
 - Gerar as tabelas com suas devidas chaves e índices
 - Criar views e procedures
 - Usar o Node JS para efetuar leitura e escrita (GET/PUT/DELETE/UPDATE)
