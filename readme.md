@@ -202,7 +202,6 @@ O desenvolvimento back-end consiste em :
 ## Considere no seu desenvolvimento
 
 - Código reutilizável e seguindo boas práticas
-- Use o conceito de microserviços
 - Verifique sempres os componentes interconectados
 - Rotas legíveis
 - Utilização correta de git/gitHub
