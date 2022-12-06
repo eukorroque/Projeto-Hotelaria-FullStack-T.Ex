@@ -128,7 +128,7 @@ A lista a seguir compõe cursos não obrigatório, porém recomendados para refo
 
 - Typescript  
 - SSO
-- API
+- API REST
 - JSON
 
 
